@@ -30,7 +30,7 @@ function CarouselGallery(props) {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://picsum.photos/800/360/?random"
+          src="https://picsum.photos/800/350/?random"
           alt="First slide"
         />
         {/* Caption A */}
@@ -44,7 +44,7 @@ function CarouselGallery(props) {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://picsum.photos/800/361/?random"
+          src="https://picsum.photos/800/351/?random"
           alt="Third slide"
         />
       {/* Caption B */}
@@ -58,7 +58,7 @@ function CarouselGallery(props) {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://picsum.photos/800/362/?random"
+          src="https://picsum.photos/800/352/?random"
           alt="Third slide"
         />
       {/* Caption C */}
