@@ -1,14 +1,20 @@
 import React from 'react'
-import TopNavbar from '../Components/TopNavbar/TopNavbar'
-// import Carousel from '../Components/Carousel/Carousel';
-import Carousel1 from '../Components/Carousel/Carousel.1';
+import TopNavbar from '../Components/TopNavbar'
+import CarouselGallery from '../Components/CarouselGallery';
+
 
 function LandingPage (props) {
   return (
     <section>
       <TopNavbar />
-      <Carousel1 />
-      {/* <Carousel /> */}
+      <CarouselGallery />
+      <br />
+      <br />
+      <div>
+        <p>More Text</p>
+        <p>More Text</p>
+        <p>More Text</p>
+      </div>
     </section>
   )
 }

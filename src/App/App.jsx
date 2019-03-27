@@ -1,9 +1,10 @@
 import React from 'react';
 import LandingPage from '../Pages/LandingPage'
+import './App.css'
 
 function App () {
   return (
-    <section>
+    <section className="App-Container">
       <LandingPage />
     </section>
   )
