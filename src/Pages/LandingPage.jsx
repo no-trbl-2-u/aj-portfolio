@@ -7,6 +7,7 @@ function LandingPage (props) {
   return (
     <section>
       <TopNavbar />
+      <h1 className="Landing-Header">Akiyah Johnson | Painter</h1>
       <CarouselGallery />
       <br />
       <br />

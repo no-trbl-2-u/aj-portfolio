@@ -59,6 +59,31 @@ function TopNavbar () {
             as={ Link } 
             to="/portfolio/WatcerColor">Water Color
           </Dropdown.Item>
+
+          <Dropdown>
+            <Dropdown.Toggle variant="link" id="dropdown-basic">
+              Inner
+            </Dropdown.Toggle>
+            
+            <Dropdown.Menu>
+
+              <Dropdown.Item 
+                as={ Link } 
+                to="/portfolio/WatcerColor">Water Color
+              </Dropdown.Item>
+              
+              <Dropdown.Item 
+                as={ Link } 
+                to="/portfolio/WatcerColor">Water Color
+              </Dropdown.Item>
+
+              <Dropdown.Item 
+                as={ Link } 
+                to="/portfolio/WatcerColor">Water Color
+              </Dropdown.Item>
+
+            </Dropdown.Menu>
+          </Dropdown>
           
         </Dropdown.Menu>
       </Dropdown>
